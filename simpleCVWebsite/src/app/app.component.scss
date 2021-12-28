@@ -1,13 +1,30 @@
 .container{
     padding: 8px;
+    padding-top: 10em;
     .wip-message{
         font-family: monospace;
-        font-size:400%;
-        .customIconSize {
-            padding: 20px;
-            font-size: 50px;
-            height: 50px ;
-            width: 50px ;
-        }
+        font-size:300%;
+        font-style: italic;
+        color: darkgray;
+
+    }
+    .customIconSize {
+        padding: 20px;
+        font-size: 50px;
+        height: 50px ;
+        width: 50px ;
+    }
+    .largerButtonSize{
+        font-size: 15px;
+        font-family: monospace;
+        color: lightgrey;
+
+    }
+    .centerised-font{
+        text-align: center;
+        color: whitesmoke;
+    }
+    .top-row-padding-top{
+       padding-top: 10em;
     }
 }

@@ -1,16 +1,32 @@
 <div class="container">
-  <div>
-  <h1 class="mat-display-4">Joseph Saravanan</h1>
-  <h1 class="mat-display-4">Ganesan</h1>
-  <p class="wip-message">
-    website in progress
-  </p>
-  <p class="wip-message">
-    <mat-icon class="customIconSize" fontSet="fab" fontIcon="fa-github"></mat-icon>
-    <mat-icon class="customIconSize" fontSet="fab" fontIcon="fa-linkedin"></mat-icon>
-    <mat-icon class="customIconSize" fontSet="fab" fontIcon="fa-medium"></mat-icon>
-  </p>
-  <p>
-    <button mat-button color="primary">About Me</button>
-  </p>
+  <mat-grid-list cols="1" rowHeight="5em">
+    <mat-grid-tile rowspan="5" class="top-row-padding-top">
+      <div>
+        <h1 class="mat-display-3 centerised-font" style="color: white;">Joseph Saravanan<br>Ganesan</h1>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile class="top-row-padding-top"> 
+      <div>
+        <p class="wip-message">
+          Website in progress
+        </p>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile class="top-row-padding-top"> 
+      <div>
+        <p>
+          <mat-icon class="customIconSize" fontSet="fab" fontIcon="fa-github"></mat-icon>
+          <mat-icon class="customIconSize" fontSet="fab" fontIcon="fa-linkedin"></mat-icon>
+          <mat-icon class="customIconSize" fontSet="fab" fontIcon="fa-medium"></mat-icon>
+        </p>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile class="top-row-padding-top">
+      <div>
+        <p>
+          <button mat-raised-button color="primary" class="largerButtonSize">More about me</button>
+        </p>
+      </div>
+    </mat-grid-tile>
+  </mat-grid-list>
 </div>
